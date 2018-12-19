@@ -2,10 +2,10 @@
 # -*- coding: UTF-8 -*-
 
 # HTTP 头部
-print "Content-Disposition: attachment; filename=\"foo.txt\"";
+print "Content-Disposition: attachment; filename=\"res.txt\"";
 print
 # 打开文件
-fo = open("foo.txt", "rb")
+fo = open("res.txt", "rb")
 
 str = fo.read();
 print str
